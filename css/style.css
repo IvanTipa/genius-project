@@ -1,0 +1,188 @@
+:root {
+    --color-primary-dark: #011C44;
+    --color-primary-light: #2B7FFF;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-grey: #747272;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Regular.ttf') format("truetype-variations");
+    font-weight: 1 999;
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('/fonts/Roboto-Bold.ttf') format("truetype-variations");
+    font-weight: 1 999;
+}
+
+@font-face {
+    font-family: 'Play';
+    src: url('/fonts/Play-Regular.ttf') format("truetype-variations");
+    font-weight: 1 999;
+}
+
+@font-face {
+    font-family: 'Play Bold';
+    src: url('/fonts/Play-Bold.ttf') format("truetype-variations");
+    font-weight: 1 999;
+}
+
+body {
+    color: var(--color-primary-dark);
+    font-family: 'Roboto';
+}
+
+/* hero-section */
+
+.hero-title {
+    color: var(--color-primary-light);
+    font-family: 'Play Bold';
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.link {
+    color: var(--color-primary-dark);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+}
+
+.link:hover {
+    font-family: 'Roboto Bold';
+    color: var(--color-primary-light);
+}
+
+
+
+.button-primary {
+    padding: 16px 32px;
+    border-radius: 32px;
+    border: none;
+    background: var(--color-primary-light);
+    color: var(--color-white);
+    font-family: 'Roboto Bold';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.button-primary:hover {
+    background: transparent;
+    color: var(--color-primary-dark);
+    border: 2px solid var(--color-primary-light);
+}
+
+.section-title .accent {
+    color: var(--color-primary-light);
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-text {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.bold {
+    font-family: 'Roboto Bold';
+}
+
+/* All section */
+
+.section-title {
+    color: var(--color-primary-dark);
+    font-family: 'Play Bold';
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-text {
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* whyus-section */
+
+.advantages-text {
+    color: var(--color-black);
+
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.5;
+}
+
+.advantages-list {
+    list-style: none;
+}
+
+/* service-section */
+
+.services-list {
+    list-style: none;
+}
+
+.services-item {
+    color: var(--color-white);
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.5;
+}
+
+/* Footer */
+
+.footer-copyright {
+    color: var(--color-grey);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-link {
+    color: var(--color-white);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.address-link {
+    color: var(--color-white);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
